@@ -1,5 +1,10 @@
 {
   "lista-categorias": {
     "component": "ListaCategorias"
+  },
+  "slider-multiple-categorias": {
+    "component": "SliderMultipleCategorias",
+    "composition": "children",
+    "allowed": "*"
   }
 }

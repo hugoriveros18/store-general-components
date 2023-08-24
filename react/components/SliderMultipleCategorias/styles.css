@@ -1,0 +1,17 @@
+.BiCategoria__listContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 640px) {
+  .BiCategoria__listContainer {
+    gap: 10px;
+  }
+}

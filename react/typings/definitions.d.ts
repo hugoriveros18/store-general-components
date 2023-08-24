@@ -1,5 +1,4 @@
 //LISTA CATEGORIAS
-
 interface Categoria {
   titulo: string
   imagenDesktop: string
@@ -35,3 +34,31 @@ interface VersionMobileProps {
   textoListaAbiertaMobile: string
 }
 
+
+//SLIDER MULTIPLE CATEGORIAS
+
+interface SubcategoriasSlider {
+  titulo: string
+  slug: string
+}
+
+interface CategoriaSlider {
+  titulo: string
+  imagenDesktop: string
+  imagenMobile: string
+  slug: string
+  subcategorias: SubcategoriasSlider[]
+}
+
+interface SliderMultipleCategoriasProps {
+  categorias: CategoriaSlider[]
+  children: ReactNode
+}
+
+interface BiCategoriaProps {
+  listSetup: CategoriaSlider[][]
+}
+
+interface CategoriaItemProps {
+  categoria: CategoriaSlider
+}
