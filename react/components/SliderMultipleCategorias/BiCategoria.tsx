@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useCssHandles } from 'vtex.css-handles';
 import { useDevice } from 'vtex.device-detector';
-import { Link } from 'vtex.render-runtime'
+import { Link } from 'vtex.render-runtime';
 import './styles.css';
 
 const CSS_HANDLES = [

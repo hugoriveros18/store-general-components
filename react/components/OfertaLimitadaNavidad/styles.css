@@ -1,0 +1,155 @@
+.ofertaLimitada__outerContainer {
+  width: 100%;
+  padding: 90px 15px;
+  background-color: #e30613;
+}
+.ofertaLimitada__innerContainer {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* LEFT COLUMN */
+
+.ofertaLimitada__leftColumn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  width: 30%;
+  margin-top: 15px;
+}
+
+.ofertaLimitada__leftColumnTitle {
+  width: 100%;
+}
+
+.ofertaLimitada__leftColumnTerms {
+  width: 80%;
+  margin: 15px auto 0;
+  font-size: 8px;
+  text-align: center;
+  color: #fff;
+}
+
+/* RIGHT COLUMN */
+.ofertaLimitada__rightColumn {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.ofertaLimitada__verMas {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.ofertaLimitada__verMasLink {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #e30613;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  transition: all .3s ease-out;
+}
+
+.ofertaLimitada__verMasLink:hover {
+  color: #fff;
+  background-color: #e30613;
+}
+
+/* TEMPORIZADOR */
+.ofertaTemporizador__container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.ofertaTemporizador__tiempoCasilla {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.ofertaTiempoCasilla__numero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  font-size: 42px;
+  font-weight: 900;
+  color: #e30613;
+  background-color: #fff;
+}
+
+.ofertaTiempoCasilla__descripcion {
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .ofertaLimitada__outerContainer {
+    position: relative;
+    padding: 15px 15px 45px;
+  }
+
+  .ofertaLimitada__innerContainer {
+    flex-direction: column;
+    gap: 5px;
+    max-width: 60%;
+  }
+
+  .ofertaTemporizador__tiempoCasilla {
+    width: auto;
+  }
+
+  .ofertaTemporizador__container  {
+    margin-bottom: 15px;
+  }
+
+  .ofertaLimitada__verMas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(50%);
+  }
+
+  .ofertaLimitada__verMasLink {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .ofertaLimitada__innerContainer {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .ofertaLimitada__innerContainer {
+    max-width: 100%;
+  }
+
+  .ofertaTemporizador__container  {
+    margin-bottom: 30px;
+  }
+
+  .ofertaLimitada__leftColumnTerms {
+    width: 90%;
+  }
+}

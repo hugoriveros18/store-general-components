@@ -1,0 +1,36 @@
+.bannerNavidad__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.bannerNavidad__link {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.bannerNavidad__image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+.bannerNavidad__hoverImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all .3s;
+  z-index: 5;
+}
+
+.bannerNavidad__link:hover > .bannerNavidad__hoverImage {
+  opacity: 1;
+}
+

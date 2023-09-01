@@ -6,5 +6,13 @@
     "component": "SliderMultipleCategorias",
     "composition": "children",
     "allowed": "*"
+  },
+  "slider-coleccion-navidad": {
+    "component": "SliderColeccionNavidad",
+    "composition": "children",
+    "allowed": "*"
+  },
+  "oferta-limitada-navidad": {
+    "component": "OfertaLimitadaNavidad"
   }
 }
