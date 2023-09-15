@@ -14,5 +14,18 @@
   },
   "oferta-limitada-navidad": {
     "component": "OfertaLimitadaNavidad"
+  },
+  "slider-subcategorias-juguetes": {
+    "component": "SliderSubcategoriasJuguetes",
+    "composition": "children",
+    "allowed": "*"
+  },
+  "dropdown-text": {
+    "component": "DropdownText"
+  },
+  "blog-posts": {
+    "component": "BlogPosts",
+    "composition": "children",
+    "allowed": "*"
   }
 }

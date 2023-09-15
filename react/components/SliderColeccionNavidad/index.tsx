@@ -3,8 +3,8 @@ import { useListContext, ListContextProvider } from 'vtex.list-context';
 import { Link } from 'vtex.render-runtime';
 import { useDevice } from 'vtex.device-detector';
 import { useCssHandles } from 'vtex.css-handles';
-import './styles.css';
 import { sliderColeccionNavidadSchema } from '../../schema/sliderColeccionNavidadSchema';
+import './styles.css';
 
 const CSS_HANDLES = [
   'bannerNavidad__container',

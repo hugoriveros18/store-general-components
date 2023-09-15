@@ -1,0 +1,27 @@
+.dropdownText__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.dropdownText__textoVisible {
+  width: 100%;
+}
+
+.dropdownText__textoOculto {
+  width: 100%;
+  transition: all .3s ease-in-out;
+  overflow: hidden
+}
+
+.dropdownText__verMasContainer {
+  display: flex;
+  width: 100%;
+}
+
+.dropdownText__verMas {
+  margin: 0;
+  cursor: pointer;
+}
+

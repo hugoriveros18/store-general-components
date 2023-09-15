@@ -3,8 +3,8 @@ import { Link } from 'vtex.render-runtime';
 import { useDevice } from 'vtex.device-detector';
 import { useCssHandles } from 'vtex.css-handles';
 import useAnalisisTemporizador from "../../hooks/useAnalisisTemporizador";
-import './styles.css';
 import { ofertaLimitadaSchema } from "../../schema/ofertaLimitadaSchema";
+import './styles.css';
 
 const CSS_HANDLES = [
   'ofertaLimitada__mobileContainer',

@@ -139,3 +139,60 @@ interface TemporizadorOfertaProps {
   minutos: number
   segundos: number
 }
+
+
+//SLIDER SUBCATEGORIAS JUGUETES
+interface Subcategoria {
+  imagen: string
+  titulo: string
+  colorTitulo: string
+  slug: string
+  tipoConfiguracion: TipoConfiguracion
+}
+
+interface SliderSubcategoriasJuguetesProps {
+  subcategorias: Subcategoria[]
+  children: ReactNode
+}
+
+interface SingleSubcategoriaProps {
+  subcategoria: Subcategoria
+}
+
+
+//DROPDOWN TEXT
+interface DropdownTextProps {
+  textoVisible: string
+  textoOculto: string
+  textoVerMas: string
+  textoVerMenos: string
+}
+
+
+//BLOG POSTS
+interface SvgArrowProps {
+  colorArrow: string
+}
+
+interface PostLayoutProps {
+  post: Post
+}
+
+interface Post {
+  imagen: string
+  categoria: string
+  titulo: string
+  contenido: string
+  textoBoton: string
+  colorFondo: string
+  colorTexto: string
+  colorSombraBoton: string
+  slug: string
+  tipoConfiguracion: TipoConfiguracion
+}
+
+interface BlogPostsProps {
+  posts: Post[]
+  children: ReactNode
+}
+
